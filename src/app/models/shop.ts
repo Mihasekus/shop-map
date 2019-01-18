@@ -1,8 +1,8 @@
-import {Good} from "./good";
+import {Product} from "./product";
 
 export class Shop {
   id: string;
-  goods: Good[];
+  products: Product[];
   name:string;
   descr: string;
   address: string;

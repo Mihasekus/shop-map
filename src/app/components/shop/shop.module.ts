@@ -1,14 +1,12 @@
 import {NgModule} from "@angular/core";
-import {MapComponent} from "./map.component";
-import {CommonModule} from '@angular/common';
+import {ShopComponent} from './shop.component';
 
 @NgModule({
   imports: [
 
-    CommonModule,
   ],
   declarations: [
-      MapComponent
+      ShopComponent
   ],
   entryComponents: [],
   exports: [
@@ -16,6 +14,6 @@ import {CommonModule} from '@angular/common';
   providers: [
   ]
 })
-export class MapModule {
+export class ShopModule {
 
 }

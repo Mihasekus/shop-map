@@ -3,7 +3,9 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import {MapModule} from "./components/map/map.module";
+import {ServicesModule} from './services/services.module';
+import {MapModule} from './components/map/map.module';
+import {ShopModule} from './components/shop/shop.module';
 
 @NgModule({
   declarations: [
@@ -12,7 +14,9 @@ import {MapModule} from "./components/map/map.module";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MapModule
+    MapModule,
+    ShopModule,
+    ServicesModule
   ],
   providers: [],
   bootstrap: [AppComponent]

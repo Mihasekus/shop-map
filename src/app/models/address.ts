@@ -5,7 +5,7 @@ class Marker {
   draggable: boolean;
 }
 
-class Location {
+class LocationAddress {
   lat: number;
   lng: number;
   viewport?: Object;
